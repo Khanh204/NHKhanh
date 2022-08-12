@@ -1,17 +1,21 @@
-#include<stdio.h>
-
-int main(){
-	int n,i;
-	printf("Nhap n =");
+#include <stdio.h>
+int main (){
+	int n,i,dem;
+	printf("nhap n =");
 	scanf("%d",&n);
 	
-
-	i = 1;
-	while(i <= n){
-		if(n % 1 == 0)
-		printf("%d",i);
-		i++;
+	for(i=1;i<n;i++){
+	if (n%i==0){
+		printf ("\n %d chia het cho %d",n,i);
+		}dem++;
+	
+}
+	if(dem==2){
+		printf("\n%d la so nguyen to",n);
+		
+	}else{
+		printf("\n%d khong phai la so nguyen to ",n);
 	}
 	
-	return 0;
-}
+	
+	}
