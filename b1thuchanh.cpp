@@ -7,5 +7,5 @@ int main(){
 	for(i=1;i<=n;i++){
 		 s=s+1.0/i;
 	}
-	printf("tong =%.f",s);
+	printf("tong =%.2f",s);
 }
